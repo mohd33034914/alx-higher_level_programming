@@ -20,9 +20,8 @@ class BaseGeometry:
         """Take area of shape"""
         raise Exception('area() is not implemented')
 
-
 class Rectangle(BaseGeometry):
-    """A class definig a rectangle """
+    """A class defining a rectangle"""
     def __init__(self, width, height):
         """Instantiates class object
 
@@ -34,3 +33,4 @@ class Rectangle(BaseGeometry):
         self.__width = width
         self.integer_validator('height', height)
         self.__height = height
+
