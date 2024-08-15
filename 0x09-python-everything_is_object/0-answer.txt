@@ -1,2 +1,1 @@
-#!/usr/bin/python3
-<S-F12>0-answer.txt
+type
